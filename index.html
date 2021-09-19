@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="en-US">
+
+<head>
+  <title>Amusement Park</title>
+  <link href="css/bootstrap.css" rel="stylesheet" type="text/css">
+  <link href="css/styles.css" rel="stylesheet" type="text/css">
+  <script src="js/jquery-3.6.0.js"></script>
+  <script src="js/scripts.js"></script>
+</head>
+
+<body>
+  <div class="container">
+    <h1>Welcome to Rickity Roo's Amusement Park</h1>
+    <img id="heroImg" src="https://images.unsplash.com/photo-1533856493584-0c6ca8ca9ce3?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=2000&q=80" alt="amusement park spinning seat ride">
+    <div class="row" id="aboutRow">
+      <div class="col-8">
+
+        <div class="intro">
+          <p>Rickity Roo's has been "where the fun never ends" since 1905 and is among the oldest continually operating
+            amusement parks in America. "Rickity's" first opened its gates to eager visitors on May 30, 1905, as a way
+            of
+            boosting ridership on the area's emerging interurban transportation system. Arriving via streetcar, visitors
+            to the park were thrilled by exotic animals, nightly fireworks, a bathhouse, death-defying amusement rides,
+            and that latest of inventions, electric lights! Rickity Roo's is proud to have offered safe, wholesome,
+            family
+            fun to our neighbors for over a century. Today when visitors walk through our gates they are delighted by a
+            uniquely Portland blend of modern thrills and turn-of-the-century charm on a midway that has delighted
+            generations of Northwesterners.</p>
+        </div>
+      </div>
+
+      <div class="col-4">
+        <div class="ridesList">
+          <form id="heightForm">
+            <h5>Please enter your height</h5>
+            <div class="form-group">
+              <label for="feet">Feet:</label>
+              <input id="feet" class="form-control" type="text">
+            </div>
+            <div class="form-group">
+              <label for="inch">Inches:</label>
+              <input id="inch" class="form-control" type="text">
+            </div>
+            <button type="submit" class="btn btn-secondary" id="formButton">submit</button>
+          </form>
+        </div>
+      </div>
+    </div>
+
+    <h3>Featured Rides</h3>
+
+    <div class="row">
+      
+      <div class="col-4" id="carousel">
+        <div class="card">
+          <img class="card-img-top" src="http://bnn-news.com/wp-content/uploads/2019/05/munich-1220908_640-e1558509936702.jpg" alt="chained carousel">
+          <div class="card-body">
+            <h5 class="card-title">Chained Up Carousel</h5>
+            <h6 class="card-subtitle mb-2 text-muted" id="40">Min Height: 3' 4"</h6>
+            <h6 class="card-subtitle mb-2 text-muted" id="68">Max Height: 5' 8"</h6>
+            <p class="card-text">
+              The chain carousel allows you to hang your chains on one of the two top circular chain rings while the chains stay separated in six different pockets. The pockets feature drain holes to allow you to wash down your chains as they hang.</p>
+          </div>
+        </div>
+      </div>
+
+      <div class="col-4" id="ferris">
+        <div class="card">
+          <img class="card-img-top" src="https://townsquare.media/site/67/files/2020/07/Ferris-Wheel.jpg" alt="colorful ferris wheel">
+          <div class="card-body">
+            <h5 class="card-title">Ferocious Ferris Wheel</h5>
+            <h6 class="card-subtitle mb-2 text-muted" id="45">Min Height: 3'9"</h6>
+            <h6 class="card-subtitle mb-2 text-muted" id="71">Max Height: 5'11"</h6>
+            <p class="card-text">
+              Navy Pier’s Centennial Wheel is an iconic part of the Chicago skyline and a treasured piece of Chicago cultural history. Soaring to heights of nearly 200 feet, the Wheel offers visitors unparalleled, 360-degree views of Chicago and Lake Michigan.
+            </p>
+          </div>
+        </div>
+      </div>
+
+      <div class="col-4" id="draft">
+        <div class="card">
+          <img class="card-img-top" src="https://www.cliffsamusementpark.com/wp-content/uploads/2020/05/downdraft-1280-1280x720.jpg" alt="Down Draft Ride">
+          <div class="card-body">
+            <h5 class="card-title">Down Draft</h5>
+            <h6 class="card-subtitle mb-2 text-muted" id="52">Min Height: 4' 4"</h6>
+            <h6 class="card-subtitle mb-2 text-muted" id="104">Max Height: 8' 8"</h6>
+            <p class="card-text">
+              Catch some air, swoop down and shoot back up again! Swing around while your feet dangle in the breeze. Nothing beats the feeling of zooming up and down and around on our newest attraction. The Downdraft is destined to be a new family favorite at Cliff’s!</p>
+          </div>
+        </div>
+      </div>
+
+    </div>
+
+    <div class="row">
+      
+      <div class="col-4" id="cliff">
+        <div class="card">
+          <img class="card-img-top" src="https://www.cliffsamusementpark.com/wp-content/uploads/2020/04/Cliffs566-1280x720.jpg" alt="Cliff Hanger">
+          <div class="card-body">
+            <h5 class="card-title">Cliff Hanger</h5>
+            <h6 class="card-subtitle mb-2 text-muted" id="57">Min Height: 4' 9"</h6>
+            <h6 class="card-subtitle mb-2 text-muted" id="92">Max Height: 7' 8"</h6>
+            <p class="card-text">
+              Up, up and up even higher! In fact you’ll be lifted 120 incredible feet into the air! Then you’ll be breathless as you plummet back to earth at the speed of gravity! It’s enough to make even the daredevil go pale and leave every thrill seeker wanting to go again! Oh, it’s a cliff hanger alright.
+            </p>
+          </div>
+        </div>
+      </div>
+
+      <div class="col-4" id="winder">
+        <div class="card">
+          <img class="card-img-top" src="https://www.cliffsamusementpark.com/wp-content/uploads/2020/04/Cliffs454-1280x720.jpg" alt="Side Winder Ride">
+          <div class="card-body">
+            <h5 class="card-title">Side Winder</h5>
+            <h6 class="card-subtitle mb-2 text-muted" id="60">Min Height: 5' 0"</h6>
+            <h6 class="card-subtitle mb-2 text-muted" id="77">Max Height: 6' 5"</h6>
+            <p class="card-text">
+              This swinging, spinning monster, at its highest point, sends passengers twirling 80 feet into the air.</p>
+          </div>
+        </div>
+      </div>
+
+      <div class="col-4" id="swing">
+        <div class="card">
+          <img class="card-img-top" src="https://www.cliffsamusementpark.com/wp-content/uploads/2020/04/Cliffs531-1280x720.jpg" alt="Happy Swing Ride">
+          <div class="card-body">
+            <h5 class="card-title">Happy Swing</h5>
+            <h6 class="card-subtitle mb-2 text-muted" id="36">Min Height: 3' 0"</h6>
+            <h6 class="card-subtitle mb-2 text-muted" id="104">Max Height: 8' 8"</h6>
+            <p class="card-text">
+              This swing set takes children to new heights but no one is pushing! Ok, kids, hop on the biggest swing set you ever saw! When it starts to swing you’ll go back and forth, baaack and foooorth, higher and higher – and nobody’s pushing!!!</p>
+          </div>
+        </div>
+      </div>
+
+    </div>
+
+  </div>
+</body>
+
+</html>
